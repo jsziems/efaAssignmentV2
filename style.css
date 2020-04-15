@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #006919;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftbox {
+    flex: 80%;
+    background-color: #fff7f5;
+    background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+    padding: 20px;
+}
+
+.rightbox {
+    flex: 20%;
+    background-color: #fff7f5;
+    background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+    padding: 20px;
+}
+
+img.profilePic {
+    width: 200px;
+    height: 300px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #006919;
+    background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+    color: white
+}
